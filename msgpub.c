@@ -1,6 +1,7 @@
-//  Weather update server
-//  Binds PUB socket to tcp://*:5556
-//  Publishes random weather updates
+//  Asynch. Message Publisher 
+//  Usage: $ ./msgpub account1 "message acct 1"
+//  connects to PUB socket to tcp://*:5556
+//  Publishes text data from terminal input 
 
 #include "zhelpers.h"
 #include "unistd.h"

@@ -1,6 +1,7 @@
-//  Weather update client
-//  Connects SUB socket to tcp://localhost:5556
-//  Collects weather updates and finds avg temp in zipcode
+//  Asynch. Message Subscriber 
+//  Usage: $ $ ./msgsub account1 account3 
+//  connects to SUB socket to tcp://    *:5556
+//  Subscribes to text data from account1 and account2
 
 #include "zhelpers.h"
 
