@@ -1,4 +1,4 @@
-//  Weather proxy device
+// Message Proxy Node 
 
 #include "zhelpers.h"
 
